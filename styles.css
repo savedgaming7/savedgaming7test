@@ -1,0 +1,72 @@
+html,
+body {
+  font-family: "Arvo", serif;
+
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #2f2f2f;
+}
+
+.background {
+  background-image: url(./background.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  widows: 100%;
+  height: 100%;
+  color: whitesmoke;
+  position: relative;
+}
+.nav {
+  background-color: tan;
+  padding: 15px;
+}
+
+.nav p {
+  color: black;
+  font-size: 20px;
+}
+.jumbo-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jumbo h1 {
+  font-size: 65px;
+  padding: 35px;
+}
+
+.button {
+  border: 1px solid gold;
+  padding: 15px;
+  background-color: teal;
+  color: black;
+  font-size: 20px;
+  transition: 0.15s;
+}
+.button:hover {
+  cursor: pointer;
+
+  background-color: gold;
+}
